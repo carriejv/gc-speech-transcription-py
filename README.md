@@ -6,10 +6,10 @@ A very simple command line tool for transcribing FLAC audio files using [Google 
 
 ```shell
 # Console Output
-pipenv run transcribe.py google-cloud-storage-uri
+pipenv run python transcribe.py google-cloud-storage-uri
 
 # File Output
-pipenv run transcribe.py google-cloud-storage-uri > out.txt
+pipenv run python transcribe.py google-cloud-storage-uri > out.txt
 ```
 
 This script is built to work with 44100 Hz FLAC files containing English speech, however it can be easily modified to fit other compatable formats and languages.
