@@ -1,6 +1,6 @@
 # gc-speech-transcription-py
 
-A very simple command line tool for transcribing FLAC audio files using Google Cloud Speech Recognition(https://cloud.google.com/speech-to-text/). Also prints confidence ratings and timestamps for each section of speech within the file.
+A very simple command line tool for transcribing FLAC audio files using [Google Cloud Speech Recognition](https://cloud.google.com/speech-to-text/). Also prints confidence ratings and timestamps for each section of speech within the file.
 
 ## Usage
 
